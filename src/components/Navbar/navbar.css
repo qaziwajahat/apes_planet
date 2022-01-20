@@ -1,0 +1,53 @@
+:root {
+  --theme-color: #00e8f2;
+}
+
+.navbar a {
+  color: #fffc !important;
+  font-size: 25px;
+}
+.navbar a:hover {
+  /* text-decoration-line: line-through; */
+  text-decoration: underline;
+  color: #00e8f2 !important;
+}
+.navBar {
+  position: absolute;
+  z-index: 1;
+  background-color: black!important;
+}
+.goRight{
+  justify-content: flex-end;
+}
+.navbar .socials i {
+  color: white;
+  font-size: 25px;
+}
+.navbar .socials i:hover {
+  color: white;
+}
+.socials{
+  margin: 10px 50px;
+ display: flex;
+ justify-content: space-between;
+  flex: 1;
+}
+
+element.style {
+}
+@media (min-width: 768px){
+.navbar-expand-md .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    flex: 1;
+    justify-content: space-between;
+}
+}
+
+.navbar-nav {
+ 
+  justify-content: inherit;
+  flex:3;
+}

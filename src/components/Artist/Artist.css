@@ -1,0 +1,107 @@
+h1{
+    /* text-align: center; */
+    font-size: 25px;
+}
+#Team{
+    background-image: url(./../../images/bg-section-2.jpg);
+  background-size: cover;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+img{
+    display: block;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+}
+.nft-cols {
+    text-align: center;
+}
+.nft-cols img{
+    margin-bottom: 10px;
+}
+/* .para{
+    width: 90%;
+    text-align: center;
+} */
+@media screen and (max-width:480px) {
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #00ffff;
+}
+.team-para >p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    /* padding: 0px 150px; */
+}
+.image-team{
+    width: 50%;
+    border:1px solid #00ffff;
+   border-radius: 50%;
+}
+.border-class > h2{
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #00ffff;
+    text-align: center;
+}
+.border-class > h3{
+    padding: 5px 0px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.border-class{
+    text-align: center;
+    background-color: #000;
+    margin: 10px;
+    border:2px solid #000;
+    padding: 80px 0px;
+    border-radius: 10px;
+
+}
+.border-class:hover{
+    border:2px solid #00ffff;
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.hidden_intro{
+    display: none;
+    transition: all 1s ease;
+    background-color:rgba(0,0,0,0.85);
+    color:white;
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    padding:0px 10px;
+   padding-top:100px;
+}
+.border-class:hover .hidden_intro{
+    display: block;
+}
+.links-twitter >i{
+    font-size: 25px;
+    color: #00ffff;
+}
+.team-head{
+color: #00ffff;
+font-weight: bolder;
+font-size: 40px;
+    text-align: center;
+}
